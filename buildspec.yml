@@ -11,7 +11,6 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install nodemon -g
       - npm install
       - npm install unit.js
   build:
